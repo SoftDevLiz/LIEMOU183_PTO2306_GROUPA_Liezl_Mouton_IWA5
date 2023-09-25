@@ -7,7 +7,9 @@ let location = 'RSA'
 let currency = null
 let shipping = null
 
-location === 'RSA' ? shipping = 400 && currency = 'R'
+if (location === 'RSA') {
+  shipping = 400, currency = 'R';
+}
 
 location === 'NAM' ? shipping = 600 && currency = '$' : shipping = 800 && currency = '$'
 

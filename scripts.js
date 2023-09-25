@@ -17,13 +17,8 @@ let shirts = 150 * NONE_SELECTED
 let batteries = 35 * 2
 let pens = 5 * NONE_SELECTED
 
-if (shoes + batteries + pens + shirts > 1000 &&  ) {
-	if (location = NAM && customers < 2) {
-			if (location = RSA)
-		    shipping = 0 || calcShipping
-		}
-	}
-}
+if (location === 'RSA' && shoes + batteries + pens + shirts >= 1000) { shipping = 0 }
+if (location === 'NAM' && shoes + batteries + pens + shirts >= 60) {shipping = 0}
 
 if (shipping = 0) && (customers !=== 1) { console.log(WARNING) }
 

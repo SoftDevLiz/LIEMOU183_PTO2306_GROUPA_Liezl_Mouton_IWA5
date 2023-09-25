@@ -17,9 +17,6 @@ let shirts = 150 * NONE_SELECTED
 let batteries = 35 * 2
 let pens = 5 * NONE_SELECTED
 
-
-currency = $
-
 if (shoes + batteries + pens + shirts > 1000 &&  ) {
 	if (location = NAM && customers < 2) {
 			if (location = RSA)

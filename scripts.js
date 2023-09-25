@@ -11,11 +11,11 @@ location === 'RSA' ? shipping = 400 && currency = 'R'
 
 location === 'NAM' ? shipping = 600 && currency = '$' : shipping = 800 && currency = '$'
 
-shoes = 300 * 1
-toys - 100 * 5
-shirts = 150 * 'NONE_SELECTED'
-batteries 35 * 2
-pens = 5 * 'NONE_SELECTED' 
+let shoes = 300 * 1
+let toys = 100 * 5
+let shirts = 150 * NONE_SELECTED
+let batteries = 35 * 2
+let pens = 5 * NONE_SELECTED
 
 
 currency = $

@@ -11,7 +11,12 @@ if (location === 'RSA') {
   shipping = 400, currency = 'R';
 }
 
-location === 'NAM' ? shipping = 600 && currency = '$' : shipping = 800 && currency = '$'
+if (location === 'NAM') {
+  shipping = 600, currency = '$'
+} else {
+  shipping = 800, currency = '$'
+}
+
 
 let shoes = 300 * 1
 let toys = 100 * 5

@@ -20,7 +20,7 @@ let pens = 5 * NONE_SELECTED
 if (location === 'RSA' && shoes + batteries + pens + shirts >= 1000) { shipping = 0 }
 if (location === 'NAM' && shoes + batteries + pens + shirts >= 60) {shipping = 0}
 
-if (shipping = 0) && (customers !=== 1) { console.log(WARNING) }
+shipping === 0 && customers !== 1 ? console.log(FREE_WARNING)
 
 location = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
 

@@ -22,5 +22,5 @@ if (location === 'NAM' && shoes + batteries + pens + shirts >= 60) {shipping = 0
 
 shipping === 0 && customers !== 1 ? console.log(FREE_WARNING)
 
-location = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
+location === 'NK' ? console.log(BANNED_WARNING) : console.log('Price:', currency, shoes + batteries + pens + shirts + shipping)
 
